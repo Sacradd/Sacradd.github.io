@@ -28,7 +28,7 @@
 
 @font-face {
 	font-family:'Raleway';
-	src: url(../fonts/raleway-bold.ttf);
+	src: url (../fonts/raleway-bold.ttf);
 	font-weight: bold;
 }
 
@@ -248,28 +248,47 @@ nav {
 	width: 120px;
 	display: flex;
 	justify-content: center;
-	margin: 380px auto 0;
+	margin: 310px auto 0;
+	position: relative;
 }
 
-.pagination-link {
+.pagination-link:after {
+	content:"";
 	display: block;
 	width: 10px;
 	min-height: 10px;
-	margin: 5px;
 	background-color: #ccc;
 	border-radius: 50%;
-	border: 2px solid transparent;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
 }
 
-.pagination-link:hover {
-	border: 2px solid #d3c1ad;
-	background-color: transparent;	
+.pagination-link:hover:after {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #a4a3a1;
+  border-radius: 50%;
 }
 
-.active-pagination-link {
-	border: 2px solid #d3c1ad;
-	background-color: transparent;	
+.pagination-link {
+  position: absolute;
+  bottom: 30px;
 }
+.pagination-link:nth-child(1) {
+  left: 12%;
+}
+.pagination-link:nth-child(2) {
+  left: 28%;
+}
+.pagination-link:nth-child(3) {
+  left: 44%;
+}
+.pagination-link:nth-child(4) {
+  left: 60%;
+}
+.pagination-link:nth-child(5) {
+  left: 76%;
+}
+
 
 /*Section.services*/
 
