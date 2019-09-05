@@ -554,3 +554,134 @@ aside {
 	color: white;
 	background-color: #998675;
 }
+
+/* projects-items */
+
+.projects-items-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects-items {
+  width: 370px;
+  position: relative;
+}
+
+.projects-items:hover .projects-items-btn-link {
+  display: block;
+}
+
+.projects-items:hover .projects-items-btn-search {
+  display: block;
+}
+
+.projects-items:hover .projects-items-btn-link:hover {
+  background-image: url(../img/link1.png);
+}
+
+.projects-items:hover .projects-items-btn-search:hover {
+  background-image: url(../img/lupa1.png);
+}
+
+.projects-items:hover .projects-items-photo {
+  filter: brightness(20%);
+}
+
+.projects-items:hover .projects-items-title {
+  color: #f2f1f1;
+}
+
+.projects-items:hover .projects-items-txt {
+  color: #c7b299;
+}
+
+.projects-items:hover .projects-items-txt-wrapper {
+  background-color: #362f2d;
+}
+
+.projects-items:hover .projects-items-txt-wrapper:before {
+  border-bottom: 10px solid #362f2d;
+}
+
+.projects-items-photo {
+  display: block;
+  width: 100%;
+}
+
+.projects-items-txt-wrapper {
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    background-color: #fbfaf8;
+}
+
+.projects-items-txt-wrapper:before {
+  content: "";
+  border: 10px solid transparent;	
+  border-bottom: 10px solid #fbfaf8;
+  position: absolute;
+  top: -20px;
+  left: 19px;
+
+}
+
+.projects-items-title {
+  display: block;
+  padding: 25px 10px 0 25px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #c7b299;
+}
+
+.projects-items-txt {
+  display: block;
+  padding: 5px 5px 25px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+
+.projects-items-btn-link,
+.projects-items-btn-search {
+  width: 20px;
+  height: 20px;
+  display: none;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 45%
+}
+
+.projects-items-btn-link {
+  background-image: url(../img/link.png);
+  left: 35%;
+}
+
+.projects-items-btn-search {
+  background-image: url(../img/lupa.png);
+  right: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
