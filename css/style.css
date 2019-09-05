@@ -125,12 +125,13 @@ nav {
 	margin-left: 40px;
 }
 
-.cart {
+.cart:hover {
 	width: 20px;
 	height: 25px;
 	background-image: url(../img/cart.png);
 	background-repeat: no-repeat;
-	margin-left: 60px;
+/*	margin-left: 60px;*/
+	filter: brightness(50%);
 }
 
 .search {
@@ -141,10 +142,17 @@ nav {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-left: 20px;
-	transform: scale(-1, 1);
+	padding: 2px 5px;
+	color: white;
 	width: 25px;
 	transition: width 1s ease-out;
 	background-position: right;
+	background-color: transparent;
+	border: none;
+}
+
+.search:hover{
+	filter: brightness(50%);
 }
 
 .search:focus {
