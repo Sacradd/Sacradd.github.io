@@ -604,8 +604,8 @@ aside {
 }
 
 .projects-items-photo {
-  display: block;
   width: 100%;
+  display: block;
 }
 
 .projects-items-txt-wrapper {
@@ -620,7 +620,7 @@ aside {
   border: 10px solid transparent;	
   border-bottom: 10px solid #fbfaf8;
   position: absolute;
-  top: -20px;
+  top: -18px;
   left: 19px;
 
 }
@@ -668,14 +668,33 @@ aside {
   right: 35%;
 }
 
+.projects-btn {
+  display: block;
+  width: 170px;
+  min-height: 50px;
+  border-radius: 3px;
+  background-color:  #998675;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 3px solid #736356;
+  margin: 40px auto 0 auto;
+  font-family:'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23px;
+  text-align: center;
+}
 
+.projects-btn:hover {
+  background-color:  #736356;
+  border-bottom: 3px solid #998675;
+  color:  #ccc;
+}
 
-
-
-
-
-
-
+.projects-btn:active {
+  color:  #fff;
+}
 
 
 
