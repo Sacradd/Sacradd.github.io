@@ -770,5 +770,97 @@ aside {
 	margin-bottom: 40px;
 }
 
+.mobile {
+	width: 1920px;
+	min-height: 690px;
+	background: url(../img/iphone-bg.jpg) no-repeat;
+	position: relative;
+}
+
+.mobile-info {
+	position: absolute;
+	top: 37%;
+	left: 48%;
+	width: 675px;
+}
+
+.mobile-title {
+	font-family:'Raleway', sans-serif;
+	font-size: 30px;
+	margin-bottom: 40px;
+	color: #818180;
+}
+
+.mobile-txt {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-bottom: 40px;
+	color: #8c8c8c;
+}
+
+.mobile-ul {
+	margin-left: 111px;
+}
+
+.mobile-ul-list {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #8c8c8c;
+	margin-bottom: 15px;
+	list-style-type: none;
+	list-style-image: url(../img/li-img.png);
+}
+
+.clients-items {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 350px;
+}
+.clients {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 350px;
+	width: 1920px;
+	min-height: 300px;
+	background: url(../img/bg-clients.jpg) no-repeat;
+	box-sizing: border-box;
+}
 
 
+.clients-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  padding: 30px 10px 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clients-item:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+
+.clients-icon {
+  fill: #baa68f;
+}
+
+.clients-title {
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 48px;
+  color: #f1f0f0;
+}
+
+.clients-txt {
+  font-family: 'Montserrat', sans-serif;
+  color: #c7b299;
+  width: 100%;
+  font-size: 14px;
+}
