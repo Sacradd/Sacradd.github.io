@@ -37,7 +37,7 @@ header {
 	background-color: #998675;
 	background-image: url(../img/bg-header.jpg);
 	background-repeat: no-repeat;
-	padding: 40px 350px;
+	padding: 40px 350px 30px 350px;
 	box-sizing: border-box;
 }
 
