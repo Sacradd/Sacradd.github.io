@@ -169,7 +169,7 @@ nav {
 	color: white;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 270px;
+	margin-top: 200px;
 }
 
 .header-item-title1 {
@@ -227,7 +227,7 @@ nav {
 	color: white;
 	text-align: center;
 	width: 570px;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 
 
@@ -263,7 +263,7 @@ nav {
 	width: 120px;
 	display: flex;
 	justify-content: center;
-	margin: 280px auto 0;
+	margin: 310px auto 0;
 	position: relative;
 }
 
