@@ -735,11 +735,40 @@ aside {
   color:  #fff;
 }
 
+.video {
+	width: 1920px;
+	min-height: 700px;
+	position: relative;
+}
 
+.video-controls {
+	position: absolute;
+	width: 550px;
+	top: 37%;
+	left: 37%;
+	text-align: center; 
+	color: #fff;
+}
 
+.video-play {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 35px;
+	background: url(../img/icon-play.png) no-repeat;
+	border: none;
+}
 
+.video-title {
+	font-family:'Raleway', sans-serif;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
 
-
+.video-txt {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
 
 
 
