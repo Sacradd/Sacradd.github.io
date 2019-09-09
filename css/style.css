@@ -74,11 +74,11 @@ header {
 }
 
 .logo-link:active .logo-link-svg {
-	fill: gold;
+	fill: white;
 }
 
 .logo-link:active .logo-link-txt {
-	color: gold;
+	color: white;
 }
 
 nav {
@@ -110,7 +110,7 @@ nav {
 }
 
 .nav-link:active {
-	color: gold;
+	color: white;
 }
 
 .active-link {
@@ -132,6 +132,10 @@ nav {
 	background-repeat: no-repeat;
 /*	margin-left: 60px;*/
 	filter: brightness(50%);
+}
+
+.cart:active {
+	filter: none;
 }
 
 .search {
