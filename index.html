@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Waxom</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div class="container">
@@ -18,9 +19,11 @@
 					<span class="logo-link-txt">Waxom</span>
 				</a>
 				<nav>
-					<ul class="nav-list">
+					<label for="menu"></label>
+    				<input id="menu" type="checkbox" >
+					<ul class="nav-list menu">
 						<li><a class="nav-link" href="#">Home</a></li>
-						<li><a class="nav-link active-link" href="#">About Us</a></li>
+						<li><a class="nav-link" href="#">About Us</a></li>
 						<li><a class="nav-link" href="#">Portfolio</a></li>
 						<li><a class="nav-link" href="#">Features</a></li>
 						<li><a class="nav-link" href="#">Blog</a></li>
@@ -186,7 +189,7 @@
 				<button class="projects-btn">load more</button>
 			</section>
 			<section class="video">
-				<video src="#" poster="img/video-poster.jpg" width="1920" height="700">
+				<video src="video/small.mp4" poster="img/video-poster.jpg" width="1920" height="700">
 				</video>
 				<div class="video-controls">
 					<button class="video-play"></button>
