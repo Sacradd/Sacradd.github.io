@@ -117,6 +117,15 @@ nav {
 	color: #c7b299;
 }
 
+label,
+#menu {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .menu {
+  visibility: visible;
+}
+
 .cart {
 	width: 20px;
 	height: 25px;
@@ -1232,4 +1241,152 @@ span.copy-txt:nth-child(4) {
 	border-right: 1px solid #555555;
 	margin-left: 465px;
 	padding-right: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 60px;
+  padding: 0;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+	header {
+		padding: 0;
+		min-height: 0;
+		position: relative;
+		background-position: 50%;
+	}
+	.container {
+		width: 760px;
+	}
+	.logo-link {
+		position: absolute;
+		margin: 10px 0 0 10px;
+	}
+	label {
+	    display: block;
+	    float: right;
+	    width: 50px;
+	    height: 50px;
+	    background-image:  url(../img/burger-menu.png);
+	    background-size: 100%;
+	    margin-right: 50px;
+	    color: white;
+  	}
+  	.menu {
+	    visibility: hidden;
+	    margin: 0 auto;
+	    height: auto;
+	    width: 100%;
+	    flex-direction: column;
+  	}
+	.menu li {
+	    height: 40px;
+	    text-align: center;
+	    background-color: #ccc;
+	    margin-top: 2px;
+  	}
+  	nav {
+  		width: 100%;
+  		display: block;
+  	}
+	.nav-list {
+		width: 100%;
+	}
+	.nav-link  {
+		color: black;
+		padding-top: 10px;
+	}
+	.cart {
+		display: none;
+	}
+	form {
+		display: none;
+	}
+	.carousel-item {
+		display: none;
+	}
+	.services {
+		padding: 0;
+		flex-wrap: wrap;
+		width: 95%;
+	}
+	.realization {
+		display: none;
+	}
+	aside {
+		display: none;
+	}
+	.projects {
+		padding: 0;
+		padding-top: 50px;
+	}
+	.video {
+		display: none;
+	}
+	.mobile {
+		width: 760px;
+		min-height: 690px;
+		background: url(../img/iphone-bg.jpg) no-repeat bottom;
+		position: relative;
+	}
+	.mobile-info {
+	    position: absolute;
+	    top: 19%;
+	    left: 28%;
+	    width: 400px;
+	}
+	.clients {
+		padding: 0;
+		width:  100%;
+	}
+	.posts {
+		padding: 50px 0 0 0;
+		width: 100%;
+		}
+	.posts-items {
+		flex-wrap: wrap;
+		padding-left: 182px;
+	}
+	.posts-btn-left {
+		display: none;
+	}
+	.posts-btn-right {
+		display: none;
+	}
+	.partners {
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		min-height: 0;
+	}
+	a.partners-link > svg > image {
+		width: 175px;
+	}
+	.partners-link-icon {
+		width: 175px;
+	}
+	.info {
+		display: none;
+	}
+	.copy {
+		padding: 0;
+	}
+	span.studio:nth-child(5) {
+		margin-left: 0;
+	}
 }
